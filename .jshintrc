@@ -1,0 +1,52 @@
+{
+    "globals": {
+        "AsyncSpec": false,
+        "PromiseSpec": false,
+        "define": false,
+        "jasmine": false,
+        "spyOn": false,
+        "it": false,
+        "xit": false,
+        "console": false,
+        "describe": false,
+        "expect": false,
+        "beforeEach": false,
+        "afterEach": false,
+        "waits": false,
+        "waitsFor": false,
+        "runs": false,
+
+        "alert": false,
+        "requirejs": false,
+        "Promise": false,
+        "WeakMap": false,
+
+        "io": false
+    },
+
+    "node" : true,
+    "browser" : true,
+
+    "boss" : false,
+    "curly": false,
+    "debug": false,
+    "devel": false,
+    "eqeqeq": true,
+    "evil": true,
+    "forin": false,
+    "immed": true,
+    "laxbreak": false,
+    "newcap": true,
+    "noarg": true,
+    "noempty": false,
+    "nonew": false,
+    "nomen": false,
+    "onevar": false,
+    "plusplus": false,
+    "regexp": false,
+    "undef": true,
+    "sub": true,
+    "strict": false,
+    "white": false,
+    "unused": true
+}

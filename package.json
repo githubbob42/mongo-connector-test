@@ -1,0 +1,30 @@
+{
+  "name": "mongo-connector",
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "homepage": "",
+  "author": "",
+  "description": "",
+  "private": true,
+  "main": "index",
+  "scripts": {
+    "lint": "jshint . --reporter=node_modules/jshint-stylish",
+    "pretest": "npm run lint",
+    "test": "jasmine-node tests/",
+    "watch": "nodemon -x \"npm run test\"",
+    "start": "node index"
+  },
+  "dependencies": {
+    "q": "^1.0.1",
+    "mongodb": "1.4.29"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1",
+    "nodemon": "~1.3.8",
+    "jasmine-node": "^1.14.5"
+  }
+}
+
